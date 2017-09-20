@@ -1,0 +1,50 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     4211last-weka.filters.unsupervised.attribute.Remove-R1,5,9,11-13
+Instances:    24527
+Attributes:   7
+              prec
+              tmax
+              tmin
+              lectivo
+              fest
+              hora
+              carga
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 5.44 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.8895
+Mean absolute error                      2.9606
+Root mean squared error                  4.3633
+Relative absolute error                 38.8949 %
+Root relative squared error             45.8366 %
+Total Number of Instances            24527     
+
+
+=== Re-evaluation on test set ===
+
+User supplied test set
+Relation:     4211TestLast-weka.filters.unsupervised.attribute.Remove-R1,9,11-13-weka.filters.unsupervised.attribute.Remove-R4
+Instances:     unknown (yet). Reading incrementally
+Attributes:   7
+
+=== Summary ===
+
+Correlation coefficient                  0.8284
+Mean absolute error                      3.4439
+Root mean squared error                  5.4574
+Total Number of Instances             2105     
+
