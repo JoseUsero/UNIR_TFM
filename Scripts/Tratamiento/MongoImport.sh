@@ -1,0 +1,13 @@
+mongoimport -d TFM -c Sensors2 --type json --file /home/userman/Clase/TFM/Trafico/Tratados/06-2016-tratado.txt | tee mongoimport.log
+mongoimport -d TFM -c Sensors2 --type json --file /home/userman/Clase/TFM/Trafico/Tratados/07-2016-tratado.txt | tee mongoimport.log
+mongoimport -d TFM -c Sensors2 --type json --file /home/userman/Clase/TFM/Trafico/Tratados/08-2016-tratado.txt | tee mongoimport.log
+mongoimport -d TFM -c Sensors2 --type json --file /home/userman/Clase/TFM/Trafico/Tratados/09-2016-tratado.txt | tee mongoimport.log
+mongoimport -d TFM -c Sensors2 --type json --file /home/userman/Clase/TFM/Trafico/Tratados/10-2016-tratado.txt | tee mongoimport.log
+mongoimport -d TFM -c Sensors2 --type json --file /home/userman/Clase/TFM/Trafico/Tratados/11-2016-tratado.txt | tee mongoimport.log
+mongoimport -d TFM -c Sensors2 --type json --file /home/userman/Clase/TFM/Trafico/Tratados/12-2016-tratado.txt | tee mongoimport.log
+mongoimport -d TFM -c Sensors2 --type json --file /home/userman/Clase/TFM/Trafico/Tratados/01-2017-tratado.txt | tee mongoimport.log
+mongoimport -d TFM -c Sensors2 --type json --file /home/userman/Clase/TFM/Trafico/Tratados/02-2017-tratado.txt | tee mongoimport.log
+mongoimport -d TFM -c Sensors2 --type json --file /home/userman/Clase/TFM/Trafico/Tratados/03-2017-tratado.txt | tee mongoimport.log
+mongoimport -d TFM -c Sensors2 --type json --file /home/userman/Clase/TFM/Trafico/Tratados/04-2017-tratado.txt | tee mongoimport.log
+mongoimport -d TFM -c Sensors2 --type json --file /home/userman/Clase/TFM/Trafico/Tratados/05-2017-tratado.txt | tee mongoimport.log
+mongoimport -d TFM -c Sensors2 --type json --file /home/userman/Clase/TFM/Trafico/Tratados/06-2017-tratado.txt | tee mongoimport.log
